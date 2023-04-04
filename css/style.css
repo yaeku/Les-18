@@ -1,0 +1,100 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.header,
+.footer {
+  background-color: #525b76;
+  min-height: 120px;
+  width: 100%;
+}
+
+.footer {
+  clear: left;
+}
+
+.artikelen {
+  background-color: #9ebeb5;
+}
+
+h1 {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: normal;
+  text-shadow: 2px 2px 1px #525b76;
+  background-image: url("https://images.frieschdagblad.nl/frd/regio/utuw7n-B884031270Z.1_20211229180946_000GPG2842PK.1-0.jpg/alternates/LANDSCAPE_1280/B884031270Z.1_20211229180946_000%2BGPG2842PK.1-0.jpg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+ul {
+  list-style-type: upper-roman;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.artikel {
+  margin: 0;
+  padding: 7px;
+}
+
+.artikel-koptekst {
+  margin: 10px 5px 5px 5px;
+}
+
+img {
+  width: 10%;
+  float: right;
+}
